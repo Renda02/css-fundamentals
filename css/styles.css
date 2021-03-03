@@ -1,0 +1,66 @@
+
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: #ffe600;
+}
+
+
+header,
+section {
+  padding: 50px;
+}
+
+header {
+  background: #ffe600;
+  color: #000;
+}
+
+.section-one {
+  background: #000;
+  color: #fff;
+}
+
+.section-one .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ffe600;
+  font-weight: bold;
+}
+
+.section-one .btn:hover {
+  background: #fff;
+}
+
+.section-two a {
+  color: #000;
+}
+
+.section-two .btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background: #ffe600;
+  font-weight: bold;
+}
+
+.section-two .btn:hover {
+  background: #ffe600;
+  color: #000;
+}
