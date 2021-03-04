@@ -1,7 +1,6 @@
-
-
 body {
-  margin: 0;
+  margin: 0 auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -22,7 +21,6 @@ a {
   color: #ffe600;
 }
 
-
 header,
 section {
   padding: 50px;
@@ -38,29 +36,14 @@ header {
   color: #fff;
 }
 
-.section-one .btn {
-  display: inline-block;
-  padding: 10px 25px;
-  background: #ffe600;
-  font-weight: bold;
-}
-
-.section-one .btn:hover {
-  background: #fff;
-}
 
 .section-two a {
   color: #000;
 }
 
-.section-two .btn {
-  display: inline-block;
-  padding: 10px 25px;
-  background: #ffe600;
-  font-weight: bold;
-}
-
-.section-two .btn:hover {
-  background: #ffe600;
-  color: #000;
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    font-weight: bold;
+    text-decoration: none;
 }
