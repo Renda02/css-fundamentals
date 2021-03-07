@@ -1,41 +1,58 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato;400;900&display=swap");
 
 body {
-  margin: 0 auto;
   font-size: 18px;
   font-family: "Lato", sans-serif;
+  color: #2e354f;
+ 
 }
 
-h1,
-h2,
-p {
-  margin-top: 0;
+.container{
+  width:620px;
+  margin: 0 auto;
 }
 
-img{
+img {
   height: 30%;
   width: 100%;
 }
 
+div{
+  
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-weight: 900;
+}
+
 h1 {
-  color: #fff;
   font-size: 36px;
-  font-weight: 500;
+  margin: 0;
 }
 
 h2 {
   color: #ef5839;
   font-size: 24px;
-  font-weight: 500;
 }
 
 header,
 section {
   padding: 50px 320px;
+  color: #fff;
 }
 
 header {
   background: #2e354f;
+  padding: 45px 0;
+  
+ 
+}
+
+section {
+ 
+  padding: 45px 0;
 }
 
 .section-one {
@@ -49,12 +66,15 @@ section a {
   text-decoration: none;
 }
 
-.section-two{
+a:hover,
+a:focus {
+  color: brown;
+}
+
+.section-two {
   background: #2e354f;
   color: #fff;
 }
-
-
 
 .btn {
   display: inline-block;
@@ -62,26 +82,24 @@ section a {
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
- 
 }
 
 .btn-accent {
   background: #fff;
   color: #000;
- 
 }
 
-.btn-accent:hover{
+.btn-accent:hover {
   background: #ef5839;
   color: #000;
 }
 
-.btn-dark{
+.btn-dark {
   background: #ef5839;
   color: #000;
 }
 
-.btn-dark:hover{
+.btn-dark:hover {
   background: #fff;
   color: #000;
 }
